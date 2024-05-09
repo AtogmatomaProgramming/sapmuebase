@@ -31,8 +31,6 @@ setwd("data-raw")
 #}
 # rango_tallas_historico_caladero <- create_historical_range_fishing_ground()
 
-#exportar_tallas_historico <- write.csv(rango_tallas_historico_caladero, "rango_tallas_historico_caladero.csv")
-
 # The rango_tallas_historico_caladero must be revised with Cooks distance graphs
 # and corrected. Then:
 rango_tallas_historico_caladero <- sapmuebase::importCsvSAPMUE("rango_tallas_historico_caladero.csv")
